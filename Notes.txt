@@ -1,0 +1,207 @@
+https://meet.google.com/fxn-inxr-uej
+Website:
+Website is a collection of webpages which contains information in the form text, images, videos, hyperlinks
+
+Home Page:
+It is landing page/ first page of a website
+home page name should be unique
+	ex: index.html
+
+Browser:
+Browser is a software which is used for accessing websites
+
+Requirements for a website:
+	1) Domain name registration
+		ex:xyz.com
+	2) Server space /hosting
+		1gb/5gb/10gb
+	3) Designing and Development
+
+
+HTML5
+Hyper Text Markup Language
+
+	1) Text editors
+		ex: notepad, Visual Studio Code(VSC)
+	2) Browser	
+		ex:chrome, safari etc
+
+html contains tags
+	ex: <title>
+Tags are 2 types
+	1)opening tag
+		ex: <title>
+	2) closing tag
+		ex: </title>
+
+
+Element:
+	<title>dfdsfsdfds </title>
+
+		
+html file has to be saved as .html file
+
+hr tag
+br
+
+Headings:
+	<h1> </h1>
+	.
+	.
+	<h6> </h6>
+
+
+<p> </p>
+list itmes:
+	order list item
+	<ol> </ol>
+	unorder list item
+	<ul> </ul>
+
+inserting images
+	<img src="file.jpg">
+
+
+Hyperlink
+
+	<a href="file.html">link</a>
+
+
+Tables:
+
+<table> </table>
+<tr> </tr>==> table row
+<td> </td> =>table data
+<th> </th> =>table head
+
+
+colspan attribute 
+
+
+table with hyperlink task given
+
+30th Jan:
+======
+
+Forms:
+<form> </form>
+<input type="text/password/checkbox/radio/email/date/color/file/range/submit/reset">
+<select> 
+<option> </option>
+</select>
+<textarea> </textarea>
+
+Task =>table and forms
+
+<iframe></iframe> ==>used for embeding external content
+
+<div> </div> =>division tag
+
+What is block and inline elements?
+=>A block-level element always starts on a new line and takes up the full width available. 
+=>An inline element does not start on a new line and it only takes up as much width as necessary.
+ The <div> element is a block-level and is often used as a container for other HTML elements.
+
+<video> </video>
+<audio> </audio>
+<header> </header>
+<footer> </footer>
+<nav> </nav>
+<aside> </aside>
+<article> </article>
+<section> </section>
+
+css:
+=================
+css properties:
+
+color:red;
+background-color:yellow;
+font-size:1em;
+text-align:left/center/right;
+width:300px;
+height:400px;
+border:1px solid/dotted/dashed red;
+border-top:1px solid/dotted/dashed red;
+border-botom:1px solid/dotted/dashed red;
+border-right:1px solid/dotted/dashed red;
+border-left:1px solid/dotted/dashed red;
+
+background-image:url()
+background-repeat:no-repeat/repeat-x/repeat-y;
+background-position:center;
+background-size: cover; 
+background-attachment: fixed;
+
+margin and padding:
+margin:30px;  =>space outside of the element
+padding:30px; =>space inside of the element
+
+text-decoratio:none;
+
+31st Jan:
+=======
+Selector in css:
+A CSS selector selects the HTML element(s) you want to style.
+
+Element Selector
+Id Selector
+Class Selector
+Group Selector
+Universal Selector:
+Pseudo-Class Selector
+Pseudo-Element Selector
+
+id and class selector:
+===============
+When comparing CSS class vs ID, the difference is that CSS class applies a style to multiple elements. ID, on the other hand, applies a style to one unique element. ID is also special in that you can use a special URL to link directly to an element and it’s used by JavaScript.
+
+Pseudo-Class Selector:Pseudo-classes are keywords that start with a colon. For example, :hover is a pseudo-class.
+	ex:a:hover{}
+
+Pseudo-Element Selector: Pseudo-elements start with a double colon ::. ::before is an example of a pseudo-element.
+	ex:
+<p class="box">Content in the box in my HTML page.</p>
+
+.box::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 1px solid black;
+}
+
+=>The use of the ::before and ::after pseudo-elements along with the content property is referred to as "Generated Content" in CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
